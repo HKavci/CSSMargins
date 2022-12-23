@@ -7,13 +7,29 @@
 main {
     border: 2px solid black;
     text-align: center;
-    margin: 20% 8% 8% 8%;
-    padding: 20px;
+    width: 500px;
+    margin-top: 100px;
+    margin-left: auto;
+    margin-right: auto;
     background-color:#D46461;
 }
 
+body {
+    background-color: #E8D6D0;
+}
+
+img {
+    border: 2px solid black;
+    border-radius: 50%;
+    width: 120px;
+    height: 120px;
+    position: relative;
+    bottom: 60px;
+}
+
 h5{
-    font-size: 1.2rem;
+    font-size: 1rem;
+    margin-top: -50px;
 }
 
 h5 span{
@@ -21,10 +37,12 @@ h5 span{
 }
 
 .content{
-    font-size: 2rem;
+    font-size: 2.1rem;
+    padding-bottom: 20px;
 }
 
 .download {
     text-align: center;
     font-size: 1.1rem;
+    margin-top: 20px;
 }
